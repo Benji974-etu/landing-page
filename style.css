@@ -1,0 +1,10 @@
+#div-part1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+#img1{
+    width: 700px;
+    height: 500px;
+}
