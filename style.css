@@ -3,10 +3,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to right, RGB(19,22,41), RGB(18,53,151));
 }
 
 #main-div{
-    background-image: linear-gradient(to right, RGB(19,22,41), RGB(18,53,151));
+    height: 745px;
+}
+
+#second-div{
     height: 745px;
 }
 
@@ -15,7 +19,7 @@ header{
     /* border: solid 1px black; */
 }
 
-h1{
+header > h1{
     padding-left: 60px;
     color: white;
     /* border: 1px solid black; */
@@ -29,6 +33,10 @@ nav{
     /* border: solid 1px black; */
     align-items: center;
     
+}
+
+ul{
+    padding-left: 130px;
 }
 
 li{
