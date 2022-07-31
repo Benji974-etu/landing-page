@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
     <title>Landing Page</title>
 </head>
 <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+        </style>
     <!-- The header will contains logo and navigation bar -->
-
-    <header>
-        <h1>Learn <span style="color: red;">IT</span></h1>
-        
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About me</li>
-                <li>Pricing</li>
-            </ul>
-        </nav>
-    </header>
-
-    <div id="div-part1"> <!--The main div of the first party of the page-->
-        <div id="div-text">   <!--Will contains the first text-->
-            <h3>Learn how to create a simple <span style="color: red; font-size: 80px;">Website</span><br> with me with differents languages and frameworks</h3>
-        </div> 
-        <div id="div-img">   <!--Will contains the img-->
-            <img id="img1" src="assets/images/workingHome.png" alt="a man who is coding...">
-        </div> 
+    <div id="main-div">
+        <header>
+            <h1>Learn <span style="color: #F813C5;">IT</span></h1>
+            
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Pricing</li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div id="div-part1"> <!--The main div of the first party of the page-->
+            <div id="div-text">   <!--Will contains the first text-->
+                <h3>Learn how to create a simple <br> <span style="color: #F813C5; font-size: 50px;">Website</span><br> with me with differents languages and frameworks</h3>
+            </div> 
+            <div id="div-img">   <!--Will contains the img-->
+                <span id="circle"></span>
+                <img id="img1" src="assets/images/workingHome.png" alt="a man who is coding...">
+            </div> 
+        </div>
     </div>
+    
 </body>
 </html>
