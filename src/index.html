@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Landing Page</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+        </style>
+    <!-- The header will contains logo and navigation bar -->
+    <div id="main-div">
+        <header>
+            <h1>Learn <span style="color: #F814C5;">IT</span></h1>
+            
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Pricing</li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div id="div-part1"> <!--The main div of the first party of the page-->
+            <div id="div-text">   <!--Will contains the first text-->
+                <h3>Learn how to create a simple <br> <span style="color: #F814C5; font-size: 50px;">Website</span><br> with me with differents languages and frameworks</h3>
+            </div> 
+            <div id="div-img">   <!--Will contains the img-->
+                <span id="circle"></span>
+                <img id="img1" src="../assets/images/workingHome.png" alt="a man who is coding...">
+            </div> 
+        </div>
+    </div>
+
+    <div id="second-div">
+        <div id="div-title-technologies" style="display: flex; align-items: center; justify-content: center;">
+            <h1 style="color: white; font-family: 'Poppins'; font-size: 60px; margin-bottom: 70px;">What will you learn ?</h1>
+        </div>
+        <div style="height: 550px; width: 1300px; margin: auto; display: flex; flex-wrap: wrap; justify-content: center;">
+            <div style="height: 275px; width:500px; padding-right:100px">
+                <div style="width: 200px; margin: auto;">
+                    <img src="../assets/images/htmlcsslogo.png" alt="htmlcsslogo" style="width:150px; height:100px; margin: auto; ">
+                </div>
+                <h4 style="width: 100%; ">You will learn how to structure your website with HTML and design it with CSS</h4>
+            </div>
+            <div style="height: 275px; width:500px;">
+                <div style="width: 200px; margin: auto;">
+                    <img src="../assets/images/javascript.png" alt="javascriptlogo" style="width:200px; height:100px; margin: auto; ">
+                </div>
+                <h4 style="width: 100%; ">Learn how to give some interactions to users on your website</h4>
+            </div>
+            <div style="height: 275px; width:500px;padding-right:100px">
+                <div style="width: 200px; margin: auto;">
+                    <img src="../assets/images/Bootstrap_logo.svg.png" alt="bootstraplogo" style="width:140px; height:100px; margin: auto; ">
+                </div>
+                <h4 style="width: 100%; ">Explore the possibilities can Boostrap help you to a better website rendering</h4>
+            </div>
+            <div style="height: 275px; width:500px;">
+                <div style="width: 200px; margin: auto;">
+                    <img src="../assets/images/django.png" alt="djangologo" style="width:240px; height:100px; margin: auto; ">
+                </div>
+                <h4 style="width: 100%; ">Develop your backend developer skills thanks to Django, a python framework</h4>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 745px">
+        <div id="div-title-technologies" style="display: flex; align-items: center; justify-content: center;">
+            <h1 style="color: white; font-family: 'Poppins'; font-size: 60px; margin-bottom: 70px;">Join me in this experience!</h1>
+        </div>
+        <div style="width: 1300px; margin: auto;">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label" style="color: white;">First Name</label>
+                  <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label" style="color: white;">Last Name</label>
+                  <input type="text" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label" style="color: white;">Email</label>
+                  <input type="email" class="form-control" id="inputAddress" placeholder="email@gmail.com">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label" style="color: white;">Phone Number</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label" style="color: white;">Country</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+              </form>
+        </div>
+        
+    </div>
+        
+    
+</body>
+</html>
